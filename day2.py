@@ -66,14 +66,48 @@
 # Division /
 # Addition +
 # Subtraction -
-print(3+3*3/3-3)
+# print(3+3*3/3-3)
 
 #BMI calculator exercise:
-height =input("enter you height in m: ")
-weight = input("Enter your weight in kg: ")
-bmi = int(weight)/ float(height)**2
-bmi_as_int = int(bmi)
-print(bmi_as_int)
+# height =input("enter you height in m: ")
+# weight = input("Enter your weight in kg: ")
+# bmi = int(weight)/ float(height)**2
+# bmi_as_int = int(bmi)
+# print(bmi_as_int)
+
+# #print 7 divided by 6
+# print(7/6)
+# #round up to a whole number
+# print(round(7/6))
+# #rounds up to whole number and specified number after decimal 
+# print(round(7/6, 2))
+# print(round(6.888888 ,2))
+
+# score = 0
+# height = 1.8
+# is_winning = True
+# #fstring
+# print(f"Your score is {score}, your height is {height}, you are winning is {is_winning})")
+
+#Life in week Exercise:
+#Create a programme using maths and f-string that tells us how many days,weeks, months we have left if we live until 90 years.
+
+# age=input("What is your current age ")
+# age_as_int = int(age)
+# years_remaining= 90 - age_as_int
+# months_remaining = years_remaining * 12
+# weeks_remaining = years_remaining * 52
+# message = (f"You have {years_remaining} years, {months_remaining} months, {weeks_remaining} weeks remaining.")
+# print(message)
+
+# Day 2 Project: Tip Calculator
+print("Welcome to tip calculator!")
+bill=float(input("What was your total bill? $"))
+tip=int(input("how much tip would you like to give? 10,12, or 15? "))
+people=int(input("How many people to split the bill?" ))
+bill_with_tip= tip/100*bill+bill
+print(bill_with_tip)
+
 
 
 

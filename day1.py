@@ -50,7 +50,7 @@ print(length)
 #a = b
 #b = c
 
-#Project: Band name generator
+# Day 1 Project: Band name generator
 #Create greeting for your programme
 # Ask user for city they were born
 # Ask user for pet name
