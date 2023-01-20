@@ -31,9 +31,9 @@
 # street_name = "Abbey Road"
 # print(street_name [4] + street_name [7])
 
-# num_char =len(input("What is your name? ") )
-# new_num_char = str(num_char)
-# print("Your name contains " + new_num_char + " Characters")
+num_char =len(input("What is your name? ") )
+new_num_char = str(num_char)
+print("Your name contains " + new_num_char + " Characters")
 
 
 # print(70 + float("100.5"))
