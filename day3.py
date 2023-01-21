@@ -128,11 +128,32 @@ else:
 
 # Logical operators (Combining  multiple conditions):
 #And (both conditions have to be true or else it amounts to false)
-# Or (if just one condition is true or are both true)
-# Not
+# Or (if just one condition is true or are both true. This evaluates to false when both statements are false)
+# Not(reverses a condition )
 
- 
-    
-    
-    
-    
+print("Welcome to the Rollercoaster!")
+height= int(input("What is your height in cm? "))
+bill = 0
+if height >= 120:
+    print("You get a ticket")
+    age = int(input("input your age "))
+    if age < 12:
+        bill = 5
+        print("child tickets are $5")
+        if age <= 18:
+            print("Youth tickets are $7.")
+    elif age >=45 and age <=55:
+        print("Everything is going to be ok have a free ride on us!")
+    else:
+        bill = 12
+        print("Adult tickets are $12")
+        wants_photo = input("Do you want a photo taken? Y or N.")
+        if wants_photo == "Y":
+            bill = bill + 3
+            print(f"Your final bill is ${bill}")
+
+#Love Calculator exercise:
+print("Welcome to the love calculator")
+name1 = input("What is your name \n")
+name2 = input("What is your name? \n")
+   
