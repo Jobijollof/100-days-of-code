@@ -77,24 +77,62 @@
 #     print("Not Leap year")
 
 
-print("Welcome to the Rollercoaster!")
-height= int(input("What is your height in cm? "))
+# print("Welcome to the Rollercoaster!")
+# height= int(input("What is your height in cm? "))
+# bill = 0
+# if height >= 120:
+#      print("You get a ticket")
+#      age = int(input("input your age "))
+#      if age >= 18:
+#          bill = 12
+#          print("Adult ticket $12")
+#      elif age <18 == 12:
+#          bill = 7
+#          print("Youth ticket $7")
+#      elif age <= 12:
+#          bill = 2
+#          print("Child ticket $2")
+#      wants_photo = input("Do you want a photo taken? Y or N.")
+#      if wants_photo == "Y":
+#         bill = bill + 3
+#         print(f"Your final bill is ${bill}")
+# else:
+#     print("You need to grow taller")
+    
+# Pizza Order Exercise:
+print("welcome to python pizza deliveries") 
+size= input(" What size of pizza do you want S, M, or L ")
+add_peperoni=input("Do you want peperoni? Y or N ")
+extra_cheese= input("Do you want extra cheese? Y or N ")
 bill = 0
-if height >= 120:
-     print("You get a ticket")
-     age = int(input("input your age "))
-     if age >= 18:
-         bill = 12
-         print("Adult ticket $12")
-     elif age <18 == 12:
-         bill = 7
-         print("Youth ticket $7")
-     elif age <= 12:
-         bill = 2
-         print("Child ticket $2")
-     wants_photo = input("Do you want a photo taken? Y or N.")
-     if wants_photo == "Y":
-        bill = bill + 3
-        print(f"Your final bill is {bill}")
+if size == "S":
+    bill = 15
+    print(f"Your bill is ${bill} ")
+elif size == "M":
+    bill = 20
+    print(f"Your bill is ${bill}")
+elif size == "L":
+    bill=25
+    print(f"Your bill is ${bill}")
+if add_peperoni == "Y":
+    if size == "S":
+     bill = bill + 2
+    else:
+     bill = bill + 3
+    print(f"Your final bill is ${bill}")
+elif extra_cheese == "Y": 
+    bill = bill + 3
+    print(f"Your final bill is {bill}")
 else:
-    print("You need to grow taller")
+    print("Thank you for stopping by")
+
+# Logical operators (Combining  multiple conditions):
+#And (both conditions have to be true or else it amounts to false)
+# Or (if just one condition is true or are both true)
+# Not
+
+ 
+    
+    
+    
+    
