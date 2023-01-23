@@ -153,29 +153,79 @@
 #             print(f"Your final bill is ${bill}")
 
 #Love Calculator exercise:
-print("Welcome to the love calculator")
-name1 = input("What is your name \n")
-name2 = input("What is your name? \n")
-combined_string = name1 + name2
-lower_case_string = combined_string .lower()
-t=lower_case_string.count("t")
-r=lower_case_string.count("r")
-u=lower_case_string.count("u")
-e=lower_case_string.count("e")
-true = t+r+u+e
-l=lower_case_string.count("l")
-o=lower_case_string.count("o")
-v=lower_case_string.count("v")
-e=lower_case_string.count("e")
-love = l+o+v+e
-love_score = int(str(true) +str(love))
-print(love_score)
-if (love_score < 10) or (love_score > 90):
-    print(f"Your love score is {love_score}, you go together")
-elif(love_score>=40) and (love_score<=50):
-    print(f"Your score is {love_score} happy life.") 
-else:
-    print(f"Your score is {love_score}")   
+# print("Welcome to the love calculator")
+# name1 = input("What is your name \n")
+# name2 = input("What is your name? \n")
+# combined_string = name1 + name2
+# lower_case_string = combined_string .lower()
+# t=lower_case_string.count("t")
+# r=lower_case_string.count("r")
+# u=lower_case_string.count("u")
+# e=lower_case_string.count("e")
+# true = t+r+u+e
+# l=lower_case_string.count("l")
+# o=lower_case_string.count("o")
+# v=lower_case_string.count("v")
+# e=lower_case_string.count("e")
+# love = l+o+v+e
+# love_score = int(str(true) +str(love))
+# print(love_score)
+# if (love_score < 10) or (love_score > 90):
+#     print(f"Your love score is {love_score}, you go together")
+# elif(love_score>=40) and (love_score<=50):
+#     print(f"Your score is {love_score} happy life.") 
+# else:
+#     print(f"Your score is {love_score}") 
+    
+#Project Day 4:
+print("Welcome to treasure Island ")
+print("Your mission is to find the treasure ")
+#to escape the apostrophe we use backlash like below
+option1 = input('You\'re at a crossroad,"Where would you like to go? Type "Left" or "Right"? ' ).lower() 
+if option1 == "left":
+    option2= input('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across ').lower()
+    if option2 == "wait":
+        option3 = input(' You arrived in the island unharmed.There is a house with three doors. One "red", one "yellow", one "blue". Which color do you choose?').lower()
+        if option3 == "yellow":
+         print("You don win!!!")
+        elif option3 == "blue":
+         print("issolova for you")
+        elif option3 == "red":
+         print("goodbye and God bless")
+        else:
+            print("If God be for us")
+    
+    else:
+        print("You have been attacked by a shark")
+else: 
+  print(" You fell into a ditch, Game Over.")
+      
+
+         
+         
+         
+    
+    
+    
+    #if location == "left":
+    #   choice = ('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across').lower()
+    #   if choice == "wait":
+    #     choice2= input(" You arrived in the island unharmed.There is a house with three doors. One red, one yellow, one blue. Which color do you choose?  ").lower()
+    #     if choice2 == "yellow":
+    #     elif choice2 == "Blue":
+    #     elif choice 2
+    #       print
+          
+          
+        
+    
+
+    
+
+
+ 
+    
+ 
 
 
 
