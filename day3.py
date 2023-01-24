@@ -206,15 +206,7 @@ else:
          
     
     
-    
-    #if location == "left":
-    #   choice = ('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across').lower()
-    #   if choice == "wait":
-    #     choice2= input(" You arrived in the island unharmed.There is a house with three doors. One red, one yellow, one blue. Which color do you choose?  ").lower()
-    #     if choice2 == "yellow":
-    #     elif choice2 == "Blue":
-    #     elif choice 2
-    #       print
+
           
           
         
