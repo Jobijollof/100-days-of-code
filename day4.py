@@ -29,3 +29,43 @@ print(float_number)
 #Love score generator:
 love_score = random.randint(1,100)
 print(f" Your love score is {love_score}")
+
+#Exercise:Heads or tail
+print('Welcome to the "Heads" or "Tail" challenge')
+random_numbers = random.randint(1,10)
+if random_numbers == 5:
+  print("Heads")
+else:
+    print("tails")
+
+#Python Lists: 
+#Data Structure: A way of organising data in python.
+
+fruits = ["oranges", "Mangoes", "Paw paw"]
+print(fruits)
+print(fruits[0]) #positive index
+print(fruits[-1]) #negative index
+
+names= ["Jobina", "Zite", "Tibe"] 
+names[2]= "Tobe" #change a name on the list
+print(names)
+
+names= ["Jobina", "Zite", "Tibe"] 
+names[2]= "Tobe" #change a name on the list
+print(names)
+
+
+names = ["Jobina", "Zite", "Tibe"] 
+names.append ("Nkpami")   #add a  single name to the list using the append function
+print(names)
+
+
+names = ["Jobina", "Zite", "Tibe"] 
+names.extend (["Nkpami", "Mummy ", "Daddy" ] )   #add a  single name to the list using the append function
+print(names)
+
+ 
+
+
+ 
+
